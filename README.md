@@ -63,7 +63,6 @@ the cut has positive effects on the model performance. The more slices we cut, t
 Base on the result above, we test different dropout rate for 30 slices training. This time, we using accuracy as our evaluation method.
 
 <table>
-<caption>Table 2</caption>
     <thead>
         <tr>
             <th></th>
@@ -77,7 +76,6 @@ Base on the result above, we test different dropout rate for 30 slices training.
             <th>roc</th>
             <th>acc</th>
         </tr>
-        
     </thead>
     <tbody>
         <tr>
@@ -99,7 +97,6 @@ Base on the result above, we test different dropout rate for 30 slices training.
             <td >62.9</td>
             <td>60</td>
         </tr>
-        
         <tr>
             <td rowspan=3>0.1</td>
             <td >57.9</td>
@@ -119,7 +116,6 @@ Base on the result above, we test different dropout rate for 30 slices training.
             <td >64.4</td>
             <td >61.2</td>
         </tr>
-        
         <tr>
             <td rowspan=3>0.3</td>
             <td >60.8</td>
@@ -140,6 +136,7 @@ Base on the result above, we test different dropout rate for 30 slices training.
             <td bgcolor=orange>61.8</td>
         </tr>
      </tbody>
+    <caption>Table 2</caption>
 </table>
 
 Table 2 showed that the best parameter sets are 30 slices with dropout rate 0.3. The results made sense without a doubt. By avoiding training all nodes on all training data, dropout decreases overfitting.
