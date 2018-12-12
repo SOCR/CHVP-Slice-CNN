@@ -24,8 +24,8 @@ Basically we are going to slicing our MRI data (3D) along with x-axis, y-axis, a
     <tbody>
         <tr>
             <td rowspan=3>10 slices</td>
-            <td bgcolor=orange>61</td>
-            <td bgcolor=orange>59</td>
+            <td>61  :+1: </td>
+            <td>59  :+1: </td>
         </tr>
         <tr>
             <td>56</td> <td>59</td>
@@ -38,20 +38,20 @@ Basically we are going to slicing our MRI data (3D) along with x-axis, y-axis, a
             <td>61.8</td> <td>61</td>
         </tr>
         <tr>
-            <td bgcolor=orange>63.8</td> <td bgcolor=orange>61.8</td>
+            <td>63.8 :+1: </td> <td>61.8 :+1: </td>
         </tr>
         <tr>
             <td>60.9</td> <td>59.4</td>
         </tr>
         <tr>
             <td rowspan=3>30 slices</td>
-            <td>59</td> <td bgcolor=orange>63</td>
+            <td>59</td> <td >63 :+1: </td>
         </tr>
         <tr>
             <td>62.8</td> <td>61.2</td>
         </tr>
         <tr>
-            <td bgcolor=orange>66.5</td> <td>61</td>
+            <td >66.5 :+1: </td> <td>61</td>
         </tr>
     </tbody>
     <caption>Table 1</caption>
@@ -81,9 +81,9 @@ Base on the result above, we test different dropout rate for 30 slices training.
         <tr>
             <td rowspan=3>0</td>
             <td >58.9</td>
-            <td bgcolor=orange>57.2</td>
+            <td >57.2 :+1: </td>
             <td >64</td>
-            <td bgcolor=orange>60.9</td>
+            <td >60.9 :+1: </td>
         </tr>
         <tr>
             <td >58.4</td>
@@ -102,7 +102,7 @@ Base on the result above, we test different dropout rate for 30 slices training.
             <td >57.9</td>
             <td >56.7</td>
             <td >63.5</td>
-            <td bgcolor=orange>61.5</td>
+            <td >61.5 :+1: </td>
         </tr>
         <tr>
             <td >60.8</td>
@@ -112,7 +112,7 @@ Base on the result above, we test different dropout rate for 30 slices training.
         </tr>
         <tr>
             <td >60.5</td>
-            <td bgcolor=orange>59.1</td>
+            <td >59.1 :+1: </td>
             <td >64.4</td>
             <td >61.2</td>
         </tr>
@@ -131,9 +131,9 @@ Base on the result above, we test different dropout rate for 30 slices training.
         </tr>
         <tr>
             <td >59.9</td>
-            <td bgcolor=orange>59.4</td>
+            <td >59.4 :+1: </td>
             <td >65.6</td>
-            <td bgcolor=orange>61.8</td>
+            <td >61.8 :+1: </td>
         </tr>
      </tbody>
     <caption>Table 2</caption>
