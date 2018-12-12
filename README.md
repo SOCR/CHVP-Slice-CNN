@@ -1,6 +1,18 @@
 # Highlight
 This is a training pipeline for the Computable Hyper Volume Phenotype project. We try to implement the slice 2D CNN on 3D, various shape MRI data. 
 
+# Installation
+ 1. Clone the github code to the local.
+ 2. Create a virtualenv and activate it.
+ 3. Run “pip install -r requirements.txt” for the first time to set up the environment.
+ 4. The default data directory is “../Data/NII_data” (base directory is the repository). Please put all the nii files in that directory.
+ 5. The default meta-data directory is “../Data” (base directory is the repository). Please put the meta-data which is a excel file default name “ABIDE_AggregaredData_Dictionary.xlsx” in that folder.
+ 6. Run “make all”, and you are good to go.
+
+It takes about 6 hours to run through 30 slices 70 epochs training and the models will be saved in “./models”.
+
+
+
 # Preprocessing
 The pipeline support to different image preprocessing method.  
  - Zooming: Only resize the images to a fix size for the neural network.  
