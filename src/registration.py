@@ -104,7 +104,7 @@ def main(args):
     pixelType = sitk.sitkInt16
     img_ref = imread(img_ref_path, target_sz)
 
-    for i in tqdm(range(1, 3)):
+    for i in tqdm(range(1, 1100)):
         img_move_path = join(input_path, 'IDAGet_1.output-'+ str(i).zfill(4) +'.nii')
         img_out_path = join(output_path, args.output_prefix + str(i).zfill(4))
         registation(img_ref, img_move_path, img_out_path, target_sz, pixelType)

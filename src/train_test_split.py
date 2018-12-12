@@ -59,6 +59,10 @@ def arg_parse():
 	parser.add_argument('-data_source', '--data_source', type=str, help='path to the relabeled np files')
 	parser.add_argument('-corpus_path', '--corpus_path', type=str, help='output path')
 	args = parser.parse_args()
+	
+	if not os.path.exists(args.corpus_path):
+		os.mkdir(args.corpus_path)
+	
 	return args
 
 

@@ -28,7 +28,7 @@ def main(args):
 	if not os.path.exists(args.output_dir):
 		os.mkdir(args.output_dir)
 
-	for i in tqdm(range(1, 3)):
+	for i in tqdm(range(1, 1100)):
 		filename = 'IDAGet_1.output-'+ str(i).zfill(4) +'.nii'
 		output_name = args.output_prefix + str(i).zfill(4)
 		img = pure_scaling(join(args.corpus_dir, filename), target_sz)
